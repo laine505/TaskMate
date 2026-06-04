@@ -1,11 +1,127 @@
-# Sample Snack app
+# TaskMate
 
-Open the `App.js` file to start writing some code. You can preview the changes directly on your phone or tablet by scanning the **QR code** or use the iOS or Android emulators. When you're done, click **Save** and share the link!
+## Overview
 
-When you're ready to see everything that Expo provides (or if you want to use your own editor) you can **Download** your project and use it with [expo cli](https://docs.expo.dev/get-started/installation/#expo-cli)).
+TaskMate is a student-focused freelance platform designed to connect students with part-time jobs, freelance opportunities, and short-term gigs. The application helps students earn extra income while gaining valuable work experience by providing a centralized platform where clients can post tasks and students can apply for projects based on their skills and interests.
 
-All projects created in Snack are publicly available, so you can easily share the link to this project via link, or embed it on a web page with the `<>` button.
+## Features
 
-If you're having problems, you can tweet to us [@expo](https://twitter.com/expo) or ask in our [forums](https://forums.expo.dev/c/expo-dev-tools/61) or [Discord](https://chat.expo.dev/).
+### Student Features
 
-Snack is Open Source. You can find the code on the [GitHub repo](https://github.com/expo/snack).
+* Student registration and authentication
+* Personal profile management
+* Skill and portfolio showcase
+* Browse available freelance jobs and gigs
+* Apply for projects
+* Track application status
+* In-app messaging with clients
+* View job history and completed tasks
+
+### Client Features
+
+* Client registration and authentication
+* Post freelance jobs and projects
+* Manage job listings
+* Review student applications
+* Hire qualified students
+* Communicate with freelancers through chat
+* Manage ongoing projects
+
+### Admin Features
+
+* Job listing moderation
+* Platform analytics and monitoring
+* Verification of users and job postings
+
+## Technologies Used
+
+### Frontend
+
+* React Native
+* Expo
+* JavaScript
+
+### Backend
+
+* PHP
+* MySQL
+* REST API
+
+### Development Tools
+
+* Visual Studio Code
+* Git & GitHub
+
+## System Objectives
+
+* Provide students with accessible freelance opportunities.
+* Help clients find talented student freelancers.
+* Promote skill development and work experience among students.
+* Create a secure and reliable freelancing environment.
+
+## Installation
+
+### Prerequisites
+
+* Node.js
+* Expo CLI
+* PHP
+* MySQL
+* XAMPP
+
+### Steps
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/yourusername/taskmate.git
+```
+
+2. Navigate to the project directory:
+
+```bash
+cd taskmate
+```
+
+3. Install dependencies:
+
+```bash
+npm install
+```
+
+4. Configure the database connection.
+
+5. Start the backend server using XAMPP.
+
+6. Run the mobile application:
+
+```bash
+npx expo start
+```
+
+## Project Structure
+
+```text
+TaskMate/
+├── frontend/
+│   ├── screens/
+│   ├── components/
+│   ├── assets/
+│  
+├── database/
+└── README.md
+```
+
+## Authors
+
+Developed by
+- Trisha Laine S. Belon
+- Kurt Calvin Biclar
+- Pauline Jenel Loro
+- Ace Magbanua
+
+
+## License
+
+This project is developed for educational and academic purposes.
+
